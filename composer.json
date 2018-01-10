@@ -1,0 +1,40 @@
+{
+  "name": "fiedsch/c4template-bundle",
+  "type": "contao-bundle",
+  "description": "Contao 4 Template Bundle",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Andreas Fieger",
+      "homepage": "https://www.github.com/fiedsch/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "symfony/framework-bundle": "^3.3",
+    "contao/core-bundle": "^4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fiedsch\\C4TemplateBundle\\": "src/"
+    },
+    "classmap": [
+      "src/Resources/contao"
+    ],
+    "exclude-from-classmap": [
+      "src/Resources/contao/assets",
+      "src/Resources/contao/config",
+      "src/Resources/contao/dca",
+      "src/Resources/contao/languages",
+      "src/Resources/contao/templates"
+    ]
+  },
+  "extra": {
+    "contao-manager-plugin": "Fiedsch\\C4TemplateBundle\\ContaoManager\\Plugin",
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
