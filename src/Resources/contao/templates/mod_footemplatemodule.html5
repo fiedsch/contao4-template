@@ -2,4 +2,4 @@
 
 <<?=$this->hl ?>><?= $this->headline ?></<?=$this->hl ?>>
 
-<?php // $this->showTemplateVars(); ?>
+<?php $this->showTemplateVars(); ?>

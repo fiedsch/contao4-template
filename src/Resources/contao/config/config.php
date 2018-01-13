@@ -17,6 +17,6 @@ $GLOBALS['TL_CSS'][] = 'bundles/fiedschc4template/backend.css';
  * Add Front end modules
  */
 
-$GLOBALS['FE_MOD']['footemplatemodule'] = [
-    'foomtemplateodule' => 'Fiedsch\Coder\ModuleC4TemplateModule'
+$GLOBALS['FE_MOD']['foomtemplateodules'] = [
+    'foomtemplateodule' => 'Fiedsch\C4Template\ModuleC4TemplateModule'
 ];
