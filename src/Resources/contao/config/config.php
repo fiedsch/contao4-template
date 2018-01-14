@@ -11,7 +11,10 @@ array_insert($GLOBALS['BE_MOD'], 1, [
     ]
 ]);
 
-$GLOBALS['TL_CSS'][] = 'bundles/fiedschc4template/backend.css';
+if (TL_MODE === 'BE') {
+ $GLOBALS['TL_CSS'][] = 'bundles/fiedschc4template/backend.css';
+}
+
 
 /**
  * Add Front end modules
