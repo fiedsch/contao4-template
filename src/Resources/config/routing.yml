@@ -1,0 +1,3 @@
+routing_demo:
+    resource: "@FiedschC4TemplateBundle/Controller"
+    type: annotation

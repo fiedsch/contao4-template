@@ -59,7 +59,7 @@ has to have read access to your sources.
 `src/FiedschC4TemplateBundle.php`
 
 
-## ContaoManagerPlugin
+## ContaoManager Plugin
 
 `src/ContaoManager/Plugin.php`
 
@@ -88,11 +88,38 @@ autoloading
 
 Everything below `src/Resources/public/`  will be symlinked to your Contao Installation's 
 `web/bundles/` directory. Place Backend CSS and Icons here. 
+
+
+## Adding Routes
+
+
+### ContaoManager Plugin
+
+Add `implements RoutingPluginInterface`  and the method
+
+```php
+public function getRouteCollection(LoaderResolverInterface $resolver, KernelInterface $kernel)
+{
+    return $resolver
+        ->resolve(__DIR__.'/../Resources/config/routing.yml')
+        ->load(__DIR__.'/../Resources/config/routing.yml');
+}
+````
+to your `src/ContaoManager/Plugin.php`.
+
+
+### Configure Routes
+
+Now use `config/config.yml` to define the routes (using annotations)
+
+Finally use annotations in your controller (`srcController/TemplateController.php`) to specify 
+the routes.
+
+
  
 
 # TODO/missing
 
-## Adding Routes
 
 ## DependencyInjection
 

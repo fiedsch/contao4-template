@@ -3,7 +3,7 @@
   "type": "contao-bundle",
   "description": "Contao 4 Template Bundle",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Andreas Fieger",
