@@ -33,7 +33,7 @@ class TemplateController extends Controller
        //
        // analog zu vendor/contao/core-bundle/src/Resources/contao/controllers/FrontendIndex.php ?
        //
-       //  ... class ListController extends \Frontend { ... }
+       //  ... class SomeController extends \Frontend { ... }
        // $controller = new Fiedsch\TemplateBundle\Controller\SomeController();
        // return $controller->run();
 
