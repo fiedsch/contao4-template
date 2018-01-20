@@ -14,29 +14,29 @@ use Symfony\Component\HttpFoundation\Response;
  */
 class TemplateController extends Controller
 {
-  /**
-      * Renders some example content.
-      *
-      * @return Response
-      *
-      * @Route("/template/demo/{some}/{foo}", name="routing_demo")
-      */
-     public function demoAction($some, $foo)
-     {
+    /**
+     * Renders some example content.
+     *
+     * @return Response
+     *
+     * @Route("/template/demo/{some}/{foo}", name="routing_demo")
+     */
+    public function demoAction($some, $foo)
+    {
 
-       return new Response("i was called with ${some} / ${foo}");
+        return new Response("i was called with ${some} / ${foo}");
 
-       // Typischer Ablauf:
-       //
-       // Verzeichnis und Klasse sind noch anzulegen: src/Resources/contao/controllers/SomeController.php
-       // + Check auf Best-Practice!
-       //
-       // analog zu vendor/contao/core-bundle/src/Resources/contao/controllers/FrontendIndex.php ?
-       //
-       //  ... class SomeController extends \Frontend { ... }
-       // $controller = new Fiedsch\TemplateBundle\Controller\SomeController();
-       // return $controller->run();
+        // Typischer Ablauf:
+        //
+        // Verzeichnis und Klasse sind noch anzulegen: src/Resources/contao/controllers/SomeController.php
+        // + Check auf Best-Practice!
+        //
+        // analog zu vendor/contao/core-bundle/src/Resources/contao/controllers/FrontendIndex.php ?
+        //
+        //  ... class SomeController extends \Frontend { ... }
+        // $controller = new Fiedsch\TemplateBundle\Controller\SomeController();
+        // return $controller->run();
 
-     }
+    }
 
 }
