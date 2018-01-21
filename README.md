@@ -124,6 +124,12 @@ the routes.
 ## DependencyInjection
 
 
+## Deployment
+
+* Use Magallanes (https://www.magephp.com)
+* Example `.mage.yml` file
+
+
 # References
 
 * https://www.cyberspectrum.de/files/downloads/talks/c4extension_cnt2017.pdf
