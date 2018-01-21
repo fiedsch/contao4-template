@@ -124,3 +124,13 @@ the routes.
 ## DependencyInjection
 
 
+# References
+
+* https://www.cyberspectrum.de/files/downloads/talks/c4extension_cnt2017.pdf
+* https://docs.contao.ninja/de/erweiterung-c3-c4.html
+* https://leofeyer.github.io/workshop-2015/ 
+* https://github.com/Sioweb/Contao4DummyBundle
+* https://github.com/contao/docs/pull/463/files
+* https://docs.contao.org/books/extending-contao4/
+
+
