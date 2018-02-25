@@ -115,6 +115,9 @@ Now use `config/config.yml` to define the routes (using annotations)
 Finally use annotations in your controller (`srcController/TemplateController.php`) to specify 
 the routes.
 
+See also [BugBuster's Demo-App](https://github.com/BugBuster1701/contao-routing-app)
+for more on the subject. 
+
 
  
 
@@ -126,8 +129,8 @@ the routes.
 
 ## Deployment
 
-* Use Magallanes (https://www.magephp.com)
-* Example `.mage.yml` file
+* Use [Magallanes](https://www.magephp.com)
+* See an example [`.mage.yml`](https://github.com/terminal42/contao-standard/blob/master/.mage.yml) file
 
 
 # References
@@ -138,5 +141,6 @@ the routes.
 * https://github.com/Sioweb/Contao4DummyBundle
 * https://github.com/contao/docs/pull/463/files
 * https://docs.contao.org/books/extending-contao4/
-
+* https://github.com/BugBuster1701/contao-routing-app
+* https://contao.ninja/nordtag-2018.html
 
