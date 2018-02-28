@@ -73,16 +73,27 @@ autoloading
 
 ### DCA
 
+* done as in Contao 3
+
 ### Modules
+
+* done as in Contao 3
 
 ### ContentElements
 
+* done as in Contao 3
+
 ### Models
+
+* done as in Contao 3
 
 ### Language files
 
+* done as in Contao 3
+
 ### Templates
 
+* done as in Contao 3
 
 ## Public files
 
