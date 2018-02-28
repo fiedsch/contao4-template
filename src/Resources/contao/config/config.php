@@ -11,9 +11,11 @@ array_insert($GLOBALS['BE_MOD'], 1, [
     ]
 ]);
 
-if (TL_MODE === 'BE') {
- $GLOBALS['TL_CSS'][] = 'bundles/fiedschc4template/backend.css';
-}
+/*
+ * Add Content Elements
+ */
+
+$GLOBALS['TL_CTE']['misc']['pin'] = 'Fiedsch\C4Template\ContentFoo';
 
 
 /**
@@ -23,3 +25,10 @@ if (TL_MODE === 'BE') {
 $GLOBALS['FE_MOD']['foomtemplateodules'] = [
     'foomtemplateodule' => 'Fiedsch\C4Template\ModuleC4TemplateModule'
 ];
+
+/*
+ * Add CSS for the BE
+ */
+if (TL_MODE === 'BE') {
+    $GLOBALS['TL_CSS'][] = 'bundles/fiedschc4template/backend.css';
+}

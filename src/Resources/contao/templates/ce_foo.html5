@@ -1,0 +1,5 @@
+<?php // -*- coding: utf-8 -*- ?>
+
+<<?=$this->hl ?>><?= $this->headline ?></<?=$this->hl ?>>
+
+<?php $this->showTemplateVars(); ?>
