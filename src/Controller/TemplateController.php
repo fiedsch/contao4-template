@@ -8,7 +8,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 
 /**
- * Handles the Coder frontend routes.
+ * Handles the Template Bunldle's frontend routes.
  *
  * @Route(defaults={"_scope" = "frontend", "_token_check" = true})
  */
